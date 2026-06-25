@@ -15,15 +15,7 @@
 
 ---
 
-# 📱 Preview
 
-<p align="center">
-  <img src="assets/logo.png" width="170"/>
-</p>
-
-> Replace `assets/logo.png` with your app logo.
-
----
 
 # ✨ Features
 
