@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "782306696139",
+    "project_id": "quizapp-d96cd",
+    "storage_bucket": "quizapp-d96cd.firebasestorage.app",
+    "firebase_url": "https://quizapp-d96cd-default-rtdb.firebaseio.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782306696139:android:081c2cd5c42b9a3803f44e",
+        "android_client_info": {
+          "package_name": "com.error.onlineexam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-Vic2caj7rSBMuhb5emH7TndqdoVvo7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/grey_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="30dp"
+    android:id="@+id/item">
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="@string/_20_20"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:id="@+id/solved_indicator"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/ic_solved"
+        android:visibility="gone"
+        app:tint="@color/green_main" />
+
+    <TextView
+        android:id="@+id/quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/main"
+        android:text="@string/quiz"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/solved_indicator"
+        android:layout_toStartOf="@+id/grade"/>
+
+
+
+
+</RelativeLayout>
